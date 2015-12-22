@@ -1,0 +1,11 @@
+{
+    "data_dir": "/opt/consul/data",
+    "log_level": "debug",
+    "node_name": "n1",
+    "server": true,
+    "bind_addr": "172.20.20.10",
+    "ui_dir": "/opt/consul/www/ui",
+    "client_addr": "172.20.20.10",
+    "leave_on_terminate": true,
+    "bootstrap_expect": 2
+}

@@ -1,0 +1,11 @@
+{
+    "data_dir": "/opt/consul/data",
+    "log_level": "debug",
+    "node_name": "n2",
+    "server": true,
+    "bind_addr": "172.20.20.11",
+    "ui_dir": "/opt/consul/www/ui",
+    "client_addr": "172.20.20.11",
+    "start_join": ["172.20.20.10"],
+    "bootstrap_expect": 2
+}
